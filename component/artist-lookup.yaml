@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
-    jenkins.io/github-folder: 'my-project/backstage-test]
+    jenkins.io/github-folder: 'my-project/backstage-test'
   name: nk-artist-lookup
   description: Artist Lookup
   tags:

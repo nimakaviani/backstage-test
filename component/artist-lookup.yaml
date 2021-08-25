@@ -3,6 +3,7 @@ kind: Component
 metadata:
   annotations:
     jenkins.io/github-folder: nimak-org/backstage-test
+    spinnaker.io/application: lambda
   name: nk-artist-lookup
   description: Artist Lookup
   tags:

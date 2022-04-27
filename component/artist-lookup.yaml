@@ -4,8 +4,10 @@ metadata:
   annotations:
     jenkins.io/github-folder: nimak-org/backstage-test
     spinnaker.io/application: lambda
-    build.code.aws.com/application: hello-world
+    code.aws.com/region: us-west-2
+    build.code.aws.com/project: hello-world
     deploy.code.aws.com/application: hello-world
+    pipeline.code.aws.com/name: test-pipeline
   name: nk-artist-lookup
   description: Artist Lookup
   tags:

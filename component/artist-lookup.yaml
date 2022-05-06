@@ -8,7 +8,7 @@ metadata:
     code.aws.com/build-project: hello-world
     code.aws.com/deploy-application: hello-world
     code.aws.com/deploy-group-name: hello-world-group
-    code.aws.com/pipeline-name: test-pipeline
+    # code.aws.com/pipeline-name: test-pipeline
     code.aws.com/iam-role: arn:aws:iam::461868971318:role/admin
   name: nk-artist-lookup
   description: Artist Lookup

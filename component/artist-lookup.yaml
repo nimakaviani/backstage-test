@@ -4,7 +4,8 @@ metadata:
   annotations:
     aws.amazon.com/build-project-arn: arn:aws:codebuild:us-west-2:461868971318:project/hello-world
     aws.amazon.com/pipeline-arn: arn:aws:codepipeline:us-west-2:461868971318:test-pipeline
-    aws.amazon.com/iam-role: arn:aws:iam::461868971318:role/admin
+    aws.amazon.com/deploy-group-arn: arn:aws:codedeploy:us-west-2:461868971318:deploymentgroup:hello-world/hello-world-group
+    aws.amazon.com/iam-role-arn: arn:aws:iam::461868971318:role/admin
   name: nk-artist-lookup
   description: Artist Lookup
   tags:

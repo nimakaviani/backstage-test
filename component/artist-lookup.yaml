@@ -2,14 +2,9 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   annotations:
-    jenkins.io/github-folder: nimak-org/backstage-test
-    spinnaker.io/application: lambda
-    code.aws.com/region: us-west-2
-    code.aws.com/build-project: hello-world
-    code.aws.com/deploy-application: hello-world
-    code.aws.com/deploy-group-name: hello-world-group
-    code.aws.com/pipeline-name: test-pipeline
-    code.aws.com/iam-role: arn:aws:iam::461868971318:role/admin
+    aws.amazon.com/build-project-arn: arn:aws:codebuild:us-west-2:461868971318:project/hello-world
+    aws.amazon.com/pipeline-arn: arn:aws:codepipeline:us-west-2:461868971318:test-pipeline
+    aws.amazon.com/iam-role: arn:aws:iam::461868971318:role/admin
   name: nk-artist-lookup
   description: Artist Lookup
   tags:
